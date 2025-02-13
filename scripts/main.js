@@ -128,7 +128,7 @@ function calculeazaRezultate(numar) {
 //console.log(calculeazaRezultate(8)); 
 
 //==========================================================
-//Exercitiul 2.5
+//Exercitiul 2.6
 
 const sumacusageata = (a, b) => a + b;
 
@@ -136,7 +136,7 @@ const sumacusageata = (a, b) => a + b;
 
 
 //==========================================================
-//Exercitiul 2.5
+//Exercitiul 2.7
 
 function aplicaFunctie(array, functie) {
     return array.map(functie);
@@ -149,8 +149,33 @@ let rezultate = aplicaFunctie(numere, dubleaza);
 
 //console.log(rezultate);
 
+//==========================================================
+//==========================================================
+
+
+//Exercitiul 3.1
+let car = {
+    marca: "Hyundai",
+    model: "Palisade",
+    an: 2023
+};
 
 //==========================================================
+//Exercitiul 3.2
+//console.log(car)
+//console.log(car.marca);
+//console.log(car["model"]);
+
+
+//==========================================================
+//Exercitiul 3.3
+car.culoare = "Negru";
+car.an = 2018;
+//console.log(car)
+
+//Exercitiul 3.4 
+delete car.model;
+//console.log(car)
 //==========================================================
 //==========================================================
 
